@@ -66,8 +66,9 @@ php artisan key:generate
 
 php artisan storage:link
 
-php artisan serve
+terminal - 1 php artisan serve
 
+terminal - 2 npm run dev
 
 Access the app at:
 
@@ -78,7 +79,7 @@ Role	Email	             Password
 
 Admin	admin12@gmail.com    Admin@12345
 
-Staff	yadnesh@gmail.com    hero@12345
+Staff	staff@gmail.com      staff@12345
 
 🧰 Troubleshooting
 
