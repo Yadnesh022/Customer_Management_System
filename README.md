@@ -32,11 +32,15 @@ Add & Manage Orders
 
 🚀 Quick Start
 1️⃣ Clone & Install
+
 git clone https://github.com/Yadnesh022/Customer_Management_System
+
 cd impactguru-mini-crm
 
 cp .env.example .env
+
 composer install
+
 npm install
 
 2️⃣ Database Setup
@@ -50,13 +54,18 @@ Import the provided database.sql file into it.
 
 Update the DB credentials:
 
-DB_DATABASE=impactguru_crm
+DB_DATABASE=CMS
+
 DB_USERNAME=root
+
 DB_PASSWORD=your_password
 
 4️⃣ Run the Application
+
 php artisan key:generate
+
 php artisan storage:link
+
 php artisan serve
 
 
@@ -66,7 +75,9 @@ Access the app at:
 
 👨‍💼 Demo Login Credentials
 Role	Email	             Password
+
 Admin	admin12@gmail.com    Admin@12345
+
 Staff	yadnesh@gmail.com    hero@12345
 
 🧰 Troubleshooting
